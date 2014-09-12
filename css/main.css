@@ -1,0 +1,155 @@
+/**NAV**/
+
+.navbar-header {
+background-color: #4f4f4f;
+}
+
+.icon-bar {
+background-color: white;
+}
+
+.navbar-brand {
+text-transform: uppercase;
+color: #fff;
+font-weight: 900;
+font-size: 1.8em !important;
+letter-spacing: 1px;
+line-height: 66% !important;
+text-shadow: none !important;
+-webkit-text-shadow: none !important;
+float: right !important;
+margin-top:-6px;
+
+}
+
+a:hover {
+color: #bfbfbf !important;
+}
+
+.navbar-brand span{
+font-weight: 100;
+font-size: .57em !important;
+letter-spacing: 1px;
+}
+
+
+.navbar-toggle {
+float: left !important;
+}
+
+nav a {
+color: #000;
+font-weight: 100;
+text-decoration: line-through;
+font-size: 1.1em;
+line-height: 250%;
+}
+
+nav li a:hover {
+font-style: italic;
+text-decoration: none;
+}
+
+nav li a.active {
+font-weight: 400;
+font-style: normal;
+text-decoration: none;
+}
+
+/**VARIOUS**/
+
+.story {
+font-weight: 100;
+font-size: 1.4em !important;
+margin-top: 15px;
+letter-spacing: .5px;
+}
+
+.button {
+width: 50px;
+display: inline-block;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.button1 {
+text-align:center;
+margin: 30px;
+}
+
+.button2 {
+text-align:center;
+margin: 30px;
+}
+
+:before {
+width: 400px;
+}
+
+.backpage img {
+margin-bottom: 10px;
+}
+
+/**ARROWS**/
+
+.arrow {
+display: inline-block;
+width: 23px;
+height: auto;
+margin-left: 5px;
+margin-right: 5px;
+margin-bottom:25px;
+}
+
+.arrows {
+text-align:center;
+margin-bottom: 10px;
+margin-top: 20px;
+}
+
+.hover:hover { 
+  opacity: .7; 
+}
+
+/**VIDEO**/
+
+.vid {
+display:block;
+float: none;
+margin:auto;
+margin-top:10px;
+margin-bottom:30px;
+text-align: center;
+
+}
+.por {
+display:block;
+float: none;
+margin:auto;
+margin-top:20px;
+text-align: center;
+}
+
+.vid1 {
+display:none;
+}
+
+.por1 {
+display:none;
+}
+
+@media all and (min-width: 530px) {
+
+
+.home img {
+    float: left;
+    width: 50%;
+    height: auto;
+    margin: 0px;
+    padding:0px;
+    }  
+
+
+
+
+}
